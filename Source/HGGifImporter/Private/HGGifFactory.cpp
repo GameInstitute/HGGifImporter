@@ -3,10 +3,12 @@
 
 #include "HGGifImporterPrivatePCH.h"
 
+#include "IContentBrowserSingleton.h"
 #include "IPluginManager.h"
 #include "ContentBrowserModule.h"
 #include "AssetToolsModule.h"
 #include "Factories/Factory.h"
+#include "PaperSprite.h"
 #include "PaperImporterSettings.h"
 #include "PaperFlipbook.h"
 #include "PaperFlipbookFactory.h"

@@ -4,7 +4,7 @@ namespace UnrealBuildTool.Rules
 {
 	public class HGGifImporter : ModuleRules
 	{
-		public HGGifImporter(TargetInfo Target)
+		public HGGifImporter(ReadOnlyTargetRules Target) : base(Target)
 		{
 			PublicIncludePaths.AddRange(
 				new string[] {
@@ -23,14 +23,14 @@ namespace UnrealBuildTool.Rules
 				new string[]
 				{
 					"Core",
-                    "CoreUObject",
-                    "Engine",
-                    "UnrealEd",
-                    "Paper2D",
-                    "Paper2DEditor",
-                    "ContentBrowser",
-                    "AssetTools",
-                    "Projects"
+					"CoreUObject",
+					"Engine",
+					"UnrealEd",
+					"Paper2D",
+					"Paper2DEditor",
+					"ContentBrowser",
+					"AssetTools",
+					"Projects"
 				}
 				);
 
