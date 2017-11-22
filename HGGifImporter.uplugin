@@ -15,17 +15,13 @@
 	"IsBetaVersion" : false,
 	"Installed" : true,
 	"RequiresBuildPlatform" : false,
-  "Modules": [
-    {
-      "Name": "HGGifImporter",
-      "Type": "Editor",
-      "LoadingPhase": "Default"
-    }
-  ],
-  "Plugins": [
-    {
-      "Name": "Paper2D",
-      "Enabled": true
-    }
-  ]
+	"Modules": [{
+		"Name": "HGGifImporter",
+		"Type": "Editor",
+		"LoadingPhase": "Default"
+	}],
+	"Plugins": [{
+		"Name": "Paper2D",
+		"Enabled": true
+	}]
 }
